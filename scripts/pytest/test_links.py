@@ -13,7 +13,7 @@ def test_working_links():
     """
     Make sure all the links in this repo still works
     """
-    for basedir, _, files in os.walk('./../contents/'):
+    for basedir, _, files in os.walk('./../../contents/'):
         for f in files:
             filepath = os.path.join(basedir, f)
             with open(filepath) as current_file:

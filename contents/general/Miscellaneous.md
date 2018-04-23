@@ -28,6 +28,10 @@
 ---
 * Randomness requires a source of entropy (seed), which is an unpredictable sequence of bits that can come from the OS observing its internal operations or ambient factors. Algorithms using a seemingly unpredictable sequence of bits as seed are known as pseudorandom number generators, because while their output are not random, they still pass the statistical tests of randomness
 * [basic pseudorandom number generator using srand, rand, and time](https://gist.github.com/yellowbyte/4c36b9fffa73d79fa739f75a5ea951c9)
+<div align='center'> 
+<img src="https://github.com/yellowbyte/reverse-engineering-reference-manual/blob/master/images/general/Miscellaneous/dilbert_rng.png"> 
+<p align='center'><sub><strong>“Anyone who considers arithmetical methods of producing random digits is, of course, in a state of sin.” - John Von Neumann</strong></sub></p>
+</div>
 
 ---
 #### *<p align='center'> Endianness </p>*
